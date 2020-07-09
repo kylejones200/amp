@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Octank Offshore Supply Chain</title>
+    <link>/octank/</link>
+    <description>Recent content on Octank Offshore Supply Chain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Jul 2020 10:40:29 -0500</lastBuildDate>
+    
+	<atom:link href="/octank/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Business Problem</title>
+      <link>/octank/businessproblem/</link>
+      <pubDate>Thu, 09 Jul 2020 10:36:19 -0500</pubDate>
+      
+      <guid>/octank/businessproblem/</guid>
+      <description>How do we reduce costs and improve efficiency in the managed supply chain?
+Specifically, how do we help Martin, a engineer and planner, with three tasks:
+ Capacity Planning Inventory Management Forecasting Demand   Martin needs to be able to quickly answer this question for his customers: &amp;ldquo;Where&amp;rsquo;s my stuff?&amp;rdquo;
+ </description>
+    </item>
+    
+    <item>
+      <title>Architecture</title>
+      <link>/octank/architecture/</link>
+      <pubDate>Thu, 09 Jul 2020 10:24:25 -0500</pubDate>
+      
+      <guid>/octank/architecture/</guid>
+      <description>In the last meeting, we whiteboarded a solution for Martin based on an event-driven serverless architecture.
+Principles Modern, event driven solution that lays the foundation for further development. The solution should require as little overhead as possible.
+Well Architected Framework The goal was to design a solution specific to this use-case but also flexible enough to evolve over time. Additionally, the solution must follow all of the well architected framework pillars:</description>
+    </item>
+    
+    <item>
+      <title>Demonstration</title>
+      <link>/octank/demo/</link>
+      <pubDate>Thu, 09 Jul 2020 10:25:04 -0500</pubDate>
+      
+      <guid>/octank/demo/</guid>
+      <description>Click here to go to the QuickSight Dashboard.
+Let&amp;rsquo;s go!  </description>
+    </item>
+    
+    <item>
+      <title>Cost and Timeline</title>
+      <link>/octank/cost/</link>
+      <pubDate>Thu, 09 Jul 2020 10:24:38 -0500</pubDate>
+      
+      <guid>/octank/cost/</guid>
+      <description>This is a cost estimate for implentation and ongoing costs for one Offshore facility. Costs are estimated in US dollars for the US-East-1 region. The estimates do not include fees, taxes, or Octank Enterprise Discounts. The actual costs depend on a variety of factors, including the project scope and actual usage of AWS services.
+Timeline and Implementation Costs gantt dateFormat YYYY-MM-DD title Notional implementation timeline section Business tasks Demonstation :done, des1, 2020-07-07, 1d Project scoping :active, des2, after des1, 7d Kickoff :des3, after des2, 1d Build and Delivery :des4, after des3, 26d POC Closeout &amp; Next Steps :des5, after des4, 2d section IT tasks Data access and testing :crit, cri1, after des2, 14d IT support for build and delivery :crit, cri2, after des2, 21d Security testing and IRM reviews :crit, after cri2, 5d     Resources Time in weeks Costs     Shell Business Owner 6    Shell IT Architect 3    Shell IT Developer 3    AWS ProServe Engagement Manager 6 $115,920   AWS ProServe Architect 6 $115,920   AWS ProServe Developer 6 $87,360   Total  $319,200    Ongoing costs    Service Upfront Monthly First 12 months total Configuration summary     Amazon Athena $ - $ 297.</description>
+    </item>
+    
+    <item>
+      <title>Extending the Concept</title>
+      <link>/octank/extendible/</link>
+      <pubDate>Thu, 09 Jul 2020 10:25:36 -0500</pubDate>
+      
+      <guid>/octank/extendible/</guid>
+      <description>The solution is the start of a journey. It is designed to be extendible without creating Technical Debt.
+Specifically, it is designed to:
+ Ingest additional data sources Support additional presentation layers Integrate current and future AI/ML models  Amazon Alexa An example of the extendibility would be adding a voice interface so that Martin could get updates and ask questions in real time.</description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>/octank/resources/</link>
+      <pubDate>Thu, 09 Jul 2020 15:42:39 -0500</pubDate>
+      
+      <guid>/octank/resources/</guid>
+      <description>AWS Energy blogs:  How to analyze well drilling reports using natural language processing Interpreting 3D seismic data automatically using Amazon SageMaker  AWS Petrophysics videos: Porosity Prediction with Amazon Sagemaker&amp;rsquo;s XGBoost Algoirithm   Lithology Prediction in Oil &amp;amp; Gas with Amazon Sagemaker   Seismic Density Prediction in Oil &amp;amp; Gas with Amazon Sagemaker   </description>
+    </item>
+    
+  </channel>
+</rss>

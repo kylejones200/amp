@@ -1,23 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
-     <loc>None</loc>
-     <lastmod>2020-07-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2020-07-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2020-07-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2020-07-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2020-07-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/octank/businessproblem/</loc>
+    <lastmod>2020-07-09T10:36:19-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/octank/architecture/</loc>
+    <lastmod>2020-07-09T10:24:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/octank/demo/</loc>
+    <lastmod>2020-07-09T10:25:04-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/octank/cost/</loc>
+    <lastmod>2020-07-09T10:24:38-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-07-09T10:40:29-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/octank/</loc>
+    <lastmod>2020-07-09T10:40:29-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/octank/extendible/</loc>
+    <lastmod>2020-07-09T10:25:36-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/octank/resources/</loc>
+    <lastmod>2020-07-09T15:42:39-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+  </url>
+  
 </urlset>
