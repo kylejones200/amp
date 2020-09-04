@@ -9,6 +9,6 @@ let authData = {
     AppWebDomain : appDomain,
     TokenScopesArray : ['openid'],
     RedirectUriSignIn : 'https://master.dfqludf80q68z.amplifyapp.com/', //CloudFront Distribution URL
-    RedirectUriSignOut : 'https://master.dfqludf80q68z.amplifyapp.com/octank/demo/' //CloudFront Distribution URL
+    RedirectUriSignOut : '?directory_alias=ant302-quicksight-mb&ignore=true&ref_=pe_3035110_233161710' //CloudFront Distribution URL
 };
 
