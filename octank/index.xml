@@ -19,8 +19,7 @@
       <guid>/octank/businessproblem/</guid>
       <description>How do we reduce costs and improve efficiency in the managed supply chain?
 Specifically, how do we help Martin, a engineer and planner, with three tasks:
- Capacity Planning Inventory Management Forecasting Demand   Martin needs to be able to quickly answer this question for his customers: &amp;ldquo;Where&amp;rsquo;s my stuff?&amp;rdquo;
- </description>
+ Capacity planning and insight into utilization Inventory management and identifying common joint tasks Forecasting demand and predicting supply needs  </description>
     </item>
     
     <item>
@@ -40,8 +39,8 @@ Well Architected Framework The goal was to design a solution specific to this us
       <pubDate>Thu, 09 Jul 2020 10:25:04 -0500</pubDate>
       
       <guid>/octank/demo/</guid>
-      <description>Click here to go to the QuickSight Dashboard.
- Authenticate  Let&amp;rsquo;s go!  </description>
+      <description>Click below to go to the QuickSight Dashboard.
+Let&amp;rsquo;s go!  </description>
     </item>
     
     <item>
@@ -50,8 +49,8 @@ Well Architected Framework The goal was to design a solution specific to this us
       <pubDate>Thu, 09 Jul 2020 10:24:38 -0500</pubDate>
       
       <guid>/octank/cost/</guid>
-      <description>This is a cost estimate for implentation and ongoing costs for one Offshore facility. Costs are estimated in US dollars for the US-East-1 region. The estimates do not include fees, taxes, or Octank Enterprise Discounts. The actual costs depend on a variety of factors, including the project scope and actual usage of AWS services.
-Timeline and Implementation Costs gantt dateFormat YYYY-MM-DD title Notional implementation timeline section Business tasks Demonstation :done, des1, 2020-07-07, 1d Project scoping :active, des2, after des1, 7d Kickoff :des3, after des2, 1d Build and Delivery :des4, after des3, 26d POC Closeout &amp; Next Steps :des5, after des4, 2d section IT tasks Data access and testing :crit, cri1, after des2, 14d IT support for build and delivery :crit, cri2, after des2, 21d Security testing and IRM reviews :crit, after cri2, 5d     Resources Time in weeks Costs     Shell Business Owner 6    Shell IT Architect 3    Shell IT Developer 3    AWS ProServe Engagement Manager 6 $115,920   AWS ProServe Architect 6 $115,920   AWS ProServe Developer 6 $87,360   Total  $319,200    Ongoing costs    Service Upfront Monthly First 12 months total Configuration summary     Amazon Athena $ - $ 297.</description>
+      <description>Next Steps Supply Chain Visibility POC This is a cost estimate for implementation and ongoing costs for one Offshore facility. Costs are estimated in US dollars for the US-East-1 region. The estimates do not include fees, taxes, or Octank Enterprise Discounts. The actual costs depend on a variety of factors, including the project scope and actual usage of AWS services.
+Timeline and Implementation Costs gantt dateFormat YYYY-MM-DD title Notional implementation timeline section Business tasks Demonstration :done, des1, 2020-09-04, 1d Project scoping :active, des2, after des1, 10d Kickoff :des3, after des2, 1d Build and Delivery :des4, after des3, 26d POC Closeout &amp; Next Steps :des5, after des4, 2d section IT tasks Data access and testing :crit, cri1, after des2, 14d IT support for build and delivery :crit, cri2, after des2, 21d Security testing and IRM reviews :crit, after cri2, 5d     Resources Time in weeks Costs     Shell Business Owner 6    Shell IT Architect 3    Shell IT Developer 3    AWS ProServe Engagement Manager 6 $115,920   AWS ProServe Architect 6 $115,920   AWS ProServe Developer 6 $87,360   Total  $319,200    Ongoing costs    Service Monthly First 12 months total Configuration summary     Amazon Athena $ 297.</description>
     </item>
     
     <item>
@@ -71,7 +70,7 @@ Specifically, it is designed to:
       <pubDate>Thu, 09 Jul 2020 15:42:39 -0500</pubDate>
       
       <guid>/octank/resources/</guid>
-      <description>AWS Energy blogs:  How to analyze well drilling reports using natural language processing Interpreting 3D seismic data automatically using Amazon SageMaker  AWS Petrophysics videos: Porosity Prediction with Amazon Sagemaker&amp;rsquo;s XGBoost Algoirithm   Lithology Prediction in Oil &amp;amp; Gas with Amazon Sagemaker   Seismic Density Prediction in Oil &amp;amp; Gas with Amazon Sagemaker   </description>
+      <description>AWS Energy blogs:  How to analyze well drilling reports using natural language processing Interpreting 3D seismic data automatically using Amazon SageMaker  AWS Petrophysics videos: Porosity Prediction with Amazon SageMaker&amp;rsquo;s XGBoost Algorithm   Lithology Prediction in Oil &amp;amp; Gas with Amazon SageMaker   Seismic Density Prediction in Oil &amp;amp; Gas with Amazon SageMaker   </description>
     </item>
     
   </channel>
