@@ -4,28 +4,28 @@
 	"title": "Business Problem",
 	"tags": [],
 	"description": "",
-	"content": "How do we reduce costs and improve efficiency in the managed supply chain?\nSpecifically, how do we help Martin, a engineer and planner, with three tasks:\n Capacity Planning Inventory Management Forecasting Demand   Martin needs to be able to quickly answer this question for his customers: \u0026ldquo;Where\u0026rsquo;s my stuff?\u0026rdquo;\n "
+	"content": "How do we reduce costs and improve efficiency in the managed supply chain?\nSpecifically, how do we help Martin, a engineer and planner, with three tasks:\n Capacity planning and insight into utilization Inventory management and identifying common joint tasks Forecasting demand and predicting supply needs  "
 },
 {
 	"uri": "/octank/architecture/",
 	"title": "Architecture",
 	"tags": [],
 	"description": "",
-	"content": "In the last meeting, we whiteboarded a solution for Martin based on an event-driven serverless architecture.\nPrinciples Modern, event driven solution that lays the foundation for further development. The solution should require as little overhead as possible.\nWell Architected Framework The goal was to design a solution specific to this use-case but also flexible enough to evolve over time. Additionally, the solution must follow all of the well architected framework pillars:\n Operational Excellence. The solution must do what it is supposed to do. Security. The solution should secure data at rest and transit. Only authorized people can see and interact with the data. Reliability. The solution must be fault tolerant and auto-scaling. Performance Efficiency. The solution must be fast. Cost Optimization. The solution\u0026rsquo;s value should far exceed the solution\u0026rsquo;s costs.  Diagrams High Level Architecture Presentation Layer Architecture "
+	"content": "In the last meeting, we whiteboarded a solution for Martin based on an event-driven serverless architecture.\nPrinciples Modern, event driven solution that lays the foundation for further development. The solution should require as little overhead as possible.\nWell Architected Framework The goal was to design a solution specific to this use-case but also flexible enough to evolve over time. Additionally, the solution must follow all of the well architected framework pillars:\n Operational Excellence Security Reliability Performance Efficiency Cost Optimization  Diagrams High Level Architecture Presentation Layer Architecture "
 },
 {
 	"uri": "/octank/demo/",
 	"title": "Demonstration",
 	"tags": [],
 	"description": "",
-	"content": "Click here to go to the QuickSight Dashboard.\n Authenticate  Let\u0026rsquo;s go!  "
+	"content": "Click below to go to the QuickSight Dashboard.\nLet\u0026rsquo;s go!  "
 },
 {
 	"uri": "/octank/cost/",
 	"title": "Cost and Timeline",
 	"tags": [],
 	"description": "",
-	"content": "This is a cost estimate for implentation and ongoing costs for one Offshore facility. Costs are estimated in US dollars for the US-East-1 region. The estimates do not include fees, taxes, or Octank Enterprise Discounts. The actual costs depend on a variety of factors, including the project scope and actual usage of AWS services.\nTimeline and Implementation Costs gantt dateFormat YYYY-MM-DD title Notional implementation timeline section Business tasks Demonstation :done, des1, 2020-07-07, 1d Project scoping :active, des2, after des1, 7d Kickoff :des3, after des2, 1d Build and Delivery :des4, after des3, 26d POC Closeout \u0026 Next Steps :des5, after des4, 2d section IT tasks Data access and testing :crit, cri1, after des2, 14d IT support for build and delivery :crit, cri2, after des2, 21d Security testing and IRM reviews :crit, after cri2, 5d     Resources Time in weeks Costs     Shell Business Owner 6    Shell IT Architect 3    Shell IT Developer 3    AWS ProServe Engagement Manager 6 $115,920   AWS ProServe Architect 6 $115,920   AWS ProServe Developer 6 $87,360   Total  $319,200    Ongoing costs    Service Upfront Monthly First 12 months total Configuration summary     Amazon Athena $ - $ 297.07 $ 3,564.84 Total number of queries (100 per day), Data amount scanned per query (20 GB)   AWS Lambda $ - $ - $ - Number of requests (1,000,000)   S3 Standard $ - $ 12.04 $ 144.48 S3 Standard storage (500 GB per month)   Data Transfer $ - $ - $ - Inbound   Amazon Kinesis Data Streams $ - $ 24.11 $ 289.32 Number of records (10 per second), Number of Consumer Applications (1)   Amazon CloudWatch $ - $ 35.00 $ 420.00 100 Custom metrics   AWS Web Application Firewall (WAF) $ - $ 13.00 $ 156.00 Number of Web Access Control Lists (Web ACLs) utilized (2 per month)   Amazon QuickSight $ - $ 86.00 $ 1,032.00 2 Authors and 10 Readers   AWS Amplify $ - $ - $ - Within free tier limit   Amazon Forecast $ - $ 1.20 $ 14.40 for 2000 forecasts per month   Amazon Personalize $ - $ 0.06 $ 0.72 1,000 recommendations per month (Expludes training)   Total  $ 468.48 $ 5,621.76 Additional details    "
+	"content": "Next Steps Supply Chain Visibility POC This is a cost estimate for implementation and ongoing costs for one Offshore facility. Costs are estimated in US dollars for the US-East-1 region. The estimates do not include fees, taxes, or Octank Enterprise Discounts. The actual costs depend on a variety of factors, including the project scope and actual usage of AWS services.\nTimeline and Implementation Costs gantt dateFormat YYYY-MM-DD title Notional implementation timeline section Business tasks Demonstration :done, des1, 2020-09-20, 1d Project scoping :active, des2, after des1, 10d Kickoff :des3, after des2, 1d Build and Delivery :des4, after des3, 26d POC Closeout \u0026 Next Steps :des5, after des4, 2d section IT tasks Data access and testing :crit, cri1, after des2, 14d IT support for build and delivery :crit, cri2, after des2, 21d Security testing and IRM reviews :crit, after cri2, 5d     Resources Time in weeks Costs     Business Owner 6    IT Architect 3    IT Developer 3    AWS ProServe Engagement Manager 6 $115,920   AWS ProServe Architect 6 $115,920   AWS ProServe Developer 6 $87,360   Total  $319,200    Ongoing costs    Service Monthly First 12 months total Configuration summary     Amazon Athena $ 297.07 $ 3,564.84 Total number of queries (100 per day), Data amount scanned per query (20 GB)   AWS Lambda $ - $ - Number of requests (1,000,000)   S3 Standard $ 12.04 $ 144.48 S3 Standard storage (500 GB per month)   Data Transfer $ - $ - Inbound   Amazon Kinesis Data Streams $ 24.11 $ 289.32 Number of records (10 per second), Number of Consumer Applications (1)   Amazon CloudWatch $ 420.00 100 Custom metrics    AWS Web Application Firewall (WAF) $ 13.00 $ 156.00 Number of Web Access Control Lists (Web ACLs) utilized (2 per month)   Amazon QuickSight $ 86.00 $ 1,032.00 2 Authors and 10 Readers   AWS Amplify $ - $ - Within free tier limit   Amazon Forecast $ 1.20 $ 14.40 for 2000 forecasts per month   Amazon Personalize $ 0.06 $ 0.72 1,000 recommendations per month (Excludes training)   Total $ 468.48 $ 5,621.76 Additional details    "
 },
 {
 	"uri": "/",
@@ -39,7 +39,7 @@
 	"title": "Octank Offshore Supply Chain",
 	"tags": [],
 	"description": "",
-	"content": "Octank Offshore Supply Chain    date 2020-07-10     version 0.1    "
+	"content": "Octank Offshore Supply Chain    date 2020-09-04     version 0.1    "
 },
 {
 	"uri": "/octank/extendible/",
@@ -53,7 +53,7 @@
 	"title": "Resources",
 	"tags": [],
 	"description": "",
-	"content": "AWS Energy blogs:  How to analyze well drilling reports using natural language processing Interpreting 3D seismic data automatically using Amazon SageMaker  AWS Petrophysics videos: Porosity Prediction with Amazon Sagemaker\u0026rsquo;s XGBoost Algoirithm   Lithology Prediction in Oil \u0026amp; Gas with Amazon Sagemaker   Seismic Density Prediction in Oil \u0026amp; Gas with Amazon Sagemaker   "
+	"content": "AWS Energy blogs:  How to analyze well drilling reports using natural language processing Interpreting 3D seismic data automatically using Amazon SageMaker  AWS Petrophysics videos: Porosity Prediction with Amazon SageMaker\u0026rsquo;s XGBoost Algorithm   Lithology Prediction in Oil \u0026amp; Gas with Amazon SageMaker   Seismic Density Prediction in Oil \u0026amp; Gas with Amazon SageMaker   "
 },
 {
 	"uri": "/categories/",
